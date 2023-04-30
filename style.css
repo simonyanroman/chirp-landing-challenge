@@ -188,9 +188,9 @@ main {
 }
 
 .feartures {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
   gap: 40px;
 }
 
@@ -201,7 +201,7 @@ main {
 .feature-card {
   display: flex;
   flex-direction: column;
-  width: 48%;
+  width: auto;
   border: 1px solid lightgray;
   border-radius: 5px;
   padding: 20px;
