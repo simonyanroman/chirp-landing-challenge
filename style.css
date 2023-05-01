@@ -21,10 +21,20 @@ h1 {
 h2 {
   font-size: 50px;
 }
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: gray;
+}
 p {
   font-size: 20px;
   color: rgb(115, 115, 115);
 }
+
+p b {
+  color: black;
+}
+
 img,
 picture,
 video,
@@ -131,7 +141,7 @@ main {
   gap: 5%;
 
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   padding-left: 15%;
   padding-right: 15%;
 
@@ -179,8 +189,8 @@ main {
   flex-direction: column;
   width: 100%;
 
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   padding-left: 15%;
   padding-right: 15%;
 
@@ -194,10 +204,6 @@ main {
   gap: 40px;
 }
 
-.feartures p b {
-  color: black;
-}
-
 .feature-card {
   display: flex;
   flex-direction: column;
@@ -208,6 +214,94 @@ main {
   gap: 10px;
 }
 
+.customer-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 15%;
+  padding-right: 15%;
+
+  gap: 20px;
+
+  background-color: rgb(221, 244, 245);
+}
+
+.customers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+}
+
+.customer-card {
+  display: flex;
+  flex-direction: column;
+
+  height: min-content;
+
+  background-color: white;
+
+  padding: 30px;
+  border-radius: 15px;
+  gap: 20px;
+}
+
+.customer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.bio img {
+  width: 80px;
+  height: auto;
+}
+
+.bio-logo {
+  width: 32px;
+  height: auto;
+}
+
+.customer_name_link {
+  display: flex;
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+.likes-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.likes-date p {
+  font-size: 25px;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.like img {
+  width: 32px;
+  height: auto;
+}
+
 footer {
   display: flex;
   align-items: center;
@@ -215,5 +309,5 @@ footer {
 }
 
 .section-header {
-  width: 50%;
+  width: 60%;
 }
