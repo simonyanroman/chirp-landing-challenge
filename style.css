@@ -94,7 +94,7 @@ header {
   font-style: italic;
 }
 
-.header-menu {
+.menu {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -102,7 +102,7 @@ header {
   justify-self: flex-end;
 }
 
-.header-menu a {
+.menu a {
   font-weight: 400;
 }
 
@@ -302,10 +302,82 @@ main {
   height: auto;
 }
 
+.price-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  gap: 80px;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.price-wrapper .section-header {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+
+  text-align: center;
+}
+
+.price-card {
+  display: flex;
+  flex-direction: column;
+
+  border: 2px solid rgb(250, 169, 10);
+  background-color: rgb(251, 248, 243);
+  border-radius: 10px;
+
+  padding: 40px;
+}
+
+.price-plans .signIn-button {
+  margin-top: 20px;
+}
+
+.mo-price {
+  display: flex;
+  align-items: baseline;
+}
+
+.plan-benefits {
+  border-top: 1px solid rgb(115, 115, 115);
+  border-bottom: 1px solid rgb(115, 115, 115);
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.plan-benefits li {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+
+  gap: 20px;
+}
+
 footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 15%;
+  padding-right: 15%;
+
+  background-color: rgb(221, 244, 245);
 }
 
 .section-header {
