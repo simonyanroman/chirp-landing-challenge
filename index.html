@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Twitter - Chirp</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>"
+    />
 
     <link rel="stylesheet" href="style.css" />
 
@@ -22,6 +26,10 @@
     <header>
       <div class="logo"><p>Chirp.</p></div>
 
+      <div class="hamburger-menu">
+        <img src="Assets/Hamburger Menu.svg" alt="" />
+      </div>
+
       <div class="menu">
         <a href=""><p>Home</p></a>
         <a href=""><p>Pricing</p></a>
@@ -34,7 +42,7 @@
     </header>
 
     <main>
-      <div class="usp-wrapper">
+      <section class="usp-wrapper">
         <div class="headline">
           <h1>Twitter analytics taken at a whole new level.</h1>
           <p>
@@ -66,14 +74,15 @@
             sheduled <b>1342</b> tweets!
           </p>
         </div>
-        <div class="hero-image">
-          <img src="Assets/Hero Image (Desktop View).png" alt="" />
-        </div>
-      </div>
 
-      <div class="features-wrapper">
+        <div class="hero-image">
+          <img src="" alt="" />
+        </div>
+      </section>
+
+      <section class="features-wrapper">
         <div class="section-header">
-          <h2>Features that help you Tweet smarter</h2>
+          <h2>Features that help you Tweet smarter.</h2>
         </div>
 
         <div class="feartures">
@@ -114,11 +123,11 @@
             </p>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="customer-wrapper">
+      <section class="customer-wrapper">
         <div class="section-header">
-          <h2>What our customers say</h2>
+          <h2>What our customers say.</h2>
         </div>
 
         <div class="customers">
@@ -126,7 +135,7 @@
             <div class="customer">
               <div class="bio">
                 <img src="Assets/userAvatar01.svg" alt="" />
-                <div class="customer_name_link">
+                <div class="customer-name">
                   <p><b>Sara May</b></p>
                   <h3>@sara_may</h3>
                 </div>
@@ -157,7 +166,7 @@
             <div class="customer">
               <div class="bio">
                 <img src="Assets/userAvatar04.svg" alt="" />
-                <div class="customer_name_link">
+                <div class="customer-name">
                   <p><b>Jack Scott</b></p>
                   <h3>@jackscott_</h3>
                 </div>
@@ -189,7 +198,7 @@
             <div class="customer">
               <div class="bio">
                 <img src="Assets/userAvatar02.svg" alt="" />
-                <div class="customer_name_link">
+                <div class="customer-name">
                   <p><b>Jessica May</b></p>
                   <h3>@jmay98</h3>
                 </div>
@@ -216,11 +225,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="price-wrapper">
+      <section class="price-wrapper">
         <div class="section-header">
-          <h2>One simple price plan</h2>
+          <h2>One simple price plan.</h2>
           <p>
             Start growing your Twitter account by analyzing your follower's
             patterns.
@@ -229,10 +238,12 @@
 
         <div class="price-plans">
           <div class="price-card">
-            <p>Mounthly</p>
-            <div class="mo-price">
-              <h1>$9</h1>
-              <p>/mo</p>
+            <div class="price">
+              <p>Mounthly</p>
+              <div class="price-value">
+                <h1>$9</h1>
+                <p>/mo</p>
+              </div>
             </div>
             <ul class="plan-benefits">
               <li>
@@ -254,15 +265,14 @@
             </button>
           </div>
         </div>
-      </div>
+      </section>
     </main>
 
     <footer>
       <div class="logo"><p>Chirp.</p></div>
 
-      <div class="menu">
+      <div class="footer-menu">
         <img src="Assets/Twitter (Black).svg" alt="" />
-
         <a href=""><p>Privacy Policy</p></a>
         <a href=""><p>Terms of Use</p></a>
       </div>
