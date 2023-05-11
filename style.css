@@ -17,22 +17,25 @@
 a {
   text-decoration: none;
 }
+
 h1 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
 }
 h2 {
-  font-size: 26px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 h3 {
-  font-size: 12px;
+  font-size: 0.85rem;
+  font-weight: 400;
   color: gray;
 }
 p {
-  font-size: 16px;
+  font-size: 1rem;
   color: gray;
 }
+
 p b {
   font-weight: bold;
   color: black;
@@ -385,7 +388,7 @@ footer p {
   display: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .hamburger-menu {
     display: flex;
   }
@@ -395,10 +398,28 @@ footer p {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   :root {
     --sides-padding: 5%;
     --elements-gap: 20px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: gray;
+  }
+  p {
+    font-size: 1rem;
+    color: gray;
   }
 
   .hero-image img {
@@ -444,7 +465,7 @@ footer p {
   }
 
   .hero-image {
-    width: 50%;
+    max-width: 40%;
   }
 
   .hero-image img {
